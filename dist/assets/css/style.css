@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+ul li {
+  border: 2px solid green;
+  height: 20px;
+  width: 125px;
+  margin: 10px;
+  display: inline-block;
+  color: #ffffff;
+  background: rgb(50, 94, 102);
+  text-decoration: none;
+}
+.main-header > div {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.main-header {
+  background: blue;
+  width: 100%;
+  padding: 8px 16px;
+  height: 55px;
+}

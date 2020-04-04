@@ -1,0 +1,74 @@
+#anime-banner {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0 3rem 0;
+}
+
+.container {
+  margin: 0 0.5rem;
+}
+
+.anime-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.25rem;
+  text-align: center;
+}
+
+.anime-img-container img {
+  object-fit: cover;
+  width: 90%;
+  height: 25vw;
+}
+
+.anime-details .title,
+.anime-details .rating,
+.anime-details .studio {
+  border-bottom: 1px solid grey;
+  width: 50vw;
+}
+
+.anime-description {
+  text-align: center;
+  margin-bottom: 4rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid grey;
+}
+
+.user-details {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.user-details img {
+  margin-right: 1rem;
+}
+
+.user-details aside {
+  flex-direction: column;
+}
+
+.review-text p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 700px;
+}
+
+.review-detail {
+  display: flex;
+}
+
+.review h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  text-decoration: underline;
+  margin-bottom: 0.5rem;
+}
+
+.review {
+  text-align: center;
+  display: grid;
+  justify-items: center;
+}

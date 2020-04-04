@@ -10,64 +10,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.align-left {
-  text-align: left;
-}
-
-.align-right {
-  text-align: right;
-}
-
-.align-center {
-  text-align: center;
-}
-
-.card {
+.nav-list {
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  width: 18rem;
-  height: 100%;
-  border: 1px solid #817f7f;
-  padding: 1rem;
-  border-radius: 1rem;
-}
-
-.wide {
-  width: 30rem;
-}
-
-.card-title {
-  font-weight: bolder;
-  font-size: 1.3rem;
-  margin-bottom: 0.25rem;
-}
-
-.card-subtitle {
-  font-style: italic;
-  font-size: 0.7rem;
-  margin-bottom: 0.5rem;
-}
-
-.text-muted {
-  color: #817f7f;
-}
-
-.btn {
-  padding: 0.5rem;
-  border: none;
-  background-color: none;
-  width: 5rem;
-  border-radius: 0.25rem;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.btn-green {
-  border: 1px solid darkgreen;
-  color: white;
-  background-color: green;
-}
-
-.btn-green:hover {
-  background-color: #339733;
+  justify-content: right;
+  background: orange;
 }

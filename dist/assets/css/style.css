@@ -6,15 +6,21 @@ body {
 }
 
 ul li {
-  border: 2px solid green;
-  height: 20px;
-  width: 125px;
-  margin: 10px;
+  margin: 0px;
+  margin-bottom: 10px;
   display: inline-block;
   color: #ffffff;
-  background: rgb(50, 94, 102);
+  background: blue;
   text-decoration: none;
 }
+
+.main-nav {
+  text-align: right;
+  vertical-align: middle;
+  width: calc(100% - 60px);
+  display: inline-block;
+}
+
 .main-header > div {
   vertical-align: middle;
   display: inline-block;
@@ -23,6 +29,80 @@ ul li {
 .main-header {
   background: blue;
   width: 100%;
-  padding: 8px 16px;
-  height: 55px;
+  height: 50px;
+  border-bottom: 2px solid white;
+}
+
+.homepage--nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  margin: 0 16px;
+  padding: 3px;
+}
+.homepage--nav {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.homepage--nav a:hover,
+.homepage--nav a:active {
+  color: teal;
+  border-bottom: 5px solid white;
+}
+
+.nav--cta a {
+  color: deepskyblue;
+  background: darkblue;
+  border-radius: 8px;
+}
+
+.nav--cta a:hover,
+.nav--cta a:active {
+  color: #ffffff;
+  background: deepskyblue;
+  border: none;
+}
+
+.banner {
+  background-image: url("../images/bg.jpg");
+  object-fit: cover;
+  height: 30vw;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  border: 2px solid black;
+}
+
+.banner h1 {
+  text-shadow: blue 1px 1px 1px;
+  background: #00000080;
+}
+
+.home-page__img {
+  background-image: url("../images/anime-characters-u7.jpeg");
+  width: 275px;
+  height: 225px;
+  margin-top: 2px;
+  border: 1px solid black;
+}
+
+.news-border {
+  float: right;
+  width: 78.5%;
+}
+
+.news_head-line {
+  font-weight: bold;
+  font-size: 30px;
+  background: rgba(55, 208, 219, 0.932);
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  overflow: hidden;
 }
